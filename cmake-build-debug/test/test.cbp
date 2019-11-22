@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\googletest\;CMake Files\test\lib\googletest\googletest\;CMake Files\test\lib\googletest\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests_algo">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/tests_algo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/src/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 tests_algo"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests_algo/fast">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/tests_algo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/src/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 tests_algo/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests_custom">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/tests_custom" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/src/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 tests_custom"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests_custom/fast">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/tests_custom" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/src/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 tests_custom/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/src/include/algos.h">
+			<Option target="tests_algo"/>
+			<Option target="tests_custom"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/src/include/task.h">
+			<Option target="tests_algo"/>
+			<Option target="tests_custom"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/custom_tests.cpp">
+			<Option target="tests_custom"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/algo_tests.cpp">
+			<Option target="tests_algo"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/test_runner.cpp">
+			<Option target="tests_algo"/>
+			<Option target="tests_custom"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\lib\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/assignment-2-algorithms-JohnyJohnes/test/lib/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\lib\googletest\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
